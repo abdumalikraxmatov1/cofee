@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+ }
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+header{
+    padding: 30px;
+    background-color: #F3D7B7;
+}
+
+
+h1{
+    font-family: Roboto;
+font-size: 64px;
+font-weight: 700;
+line-height: 75px;
+
+
+}
+.s1t{
+    width: 400px;
+}
+.btn{
+    padding: 10px 13px;
+    border: none;
+    border-radius: 20px;
+    background-color: #0A775F;
+    color: white;
+}
+.s1{
+    background-color: #F3D7B7;
+    
+}
+.s1t p{
+    margin: 30px 0;
+    font-size: 18px;
+}
+.s1ota{
+    display: flex;
+    align-items: center;
+    
+}
+.s1img{
+    
+    height: 700px;
+}
+.y{
+    position: absolute;
+    right: 100px;
+    bottom: -100px;
+}
+.t{
+    position: absolute;
+    right: 690px;
+    animation: aylan linear 2s infinite;
+}
+.s1{
+    position: relative;
+
+}
+@keyframes aylan{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+.s2{
+    margin-top: 120px;
+}
+.s2 h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.s2ota{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.s2t h2{
+   font-size: 50px;
+   margin-bottom: 13px;
+}
+.s2t p{
+    font-size: 22px;
+}
+.s2t{
+    width: 350px;
+}
+
+.scale:hover{
+    transform: scale(2);
+}
+.scale{
+    transition: 2s;
+}
+
+footer{
+    background-color: #F3D7B7;
+    padding: 30px;
+}
+.fff{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
